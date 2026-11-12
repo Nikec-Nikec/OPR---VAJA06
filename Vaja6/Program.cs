@@ -20,14 +20,14 @@ namespace vaja6 {
             id = stIg;
             stIg++;
         }
-
+//komentar
         public int Id {
             get
             {
                 return id;
             }
         }
-
+//komentar
         public string U_ime {
             get
             {
@@ -38,7 +38,7 @@ namespace vaja6 {
                 u_ime = value.Trim();
             }
         }
-
+//komentar
         public string U_geslo
         {
             get
@@ -50,7 +50,7 @@ namespace vaja6 {
                 u_geslo = value.Trim();
             }
         }
-
+//komentar
         public static int StIg
         {
             get { return stIg; }
